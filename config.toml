@@ -1,0 +1,29 @@
+theme = "github_dark"
+
+[keys.insert.j]
+"k" = "normal_mode"
+
+[keys.select]
+"A-m" = "normal_mode"
+
+[keys.normal]
+"," = "repeat_last_motion"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "version-control"]
